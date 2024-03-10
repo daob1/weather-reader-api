@@ -70,4 +70,12 @@ Check out my swag:
 
 
 
-Additional Notes: Currently WIP. The database is wiped each time the application starts. This is intentional to help manual testing.
+Additional Notes: 
+
+    Persistence has been requested so I have added the h2db.mv.db file to the git repo.
+    
+    For development: To have an easier experience manual testing, consider deleting your local copy of 
+    the file h2db.mv.db and set the application property spring.sql.init.mode=alawys
+    That way the database is reset each time the application starts.
+
+    Enjoy!
